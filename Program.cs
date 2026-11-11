@@ -1,5 +1,6 @@
 ﻿
 using ExercicioPOOCS;
+using ListaExPOO;
 
 // // 1. Apresentação de pessoas
 
@@ -57,9 +58,30 @@ using ExercicioPOOCS;
 
 //4. Propriedades e controle de acesso
 
-Funcionario f1 = new Funcionario();
+// Funcionario f1 = new Funcionario();
 
-f1.Nome = "Sofia";
-f1.Cargo = "Gerente";
+// f1.Nome = "Sofia";
+// f1.Cargo = "Gerente";
 
-f1.AumentarSalario(0.25);
+// f1.DefinirSalario(5000.00m);
+
+// f1.AumentarSalario(0.5m);
+
+// f1.ConsultarSalario();
+
+//f1.Salario = 4300; Não é possível realizar está ação, pois o setter dessa propriedade está privado, isso é útil para encapsulamneto das propriedades utilizando de métodos
+
+
+
+//5. Construtores e sobrecarga
+
+// Livro book1 = new Livro();
+// Livro book2 = new Livro("O Triste fim de Policarpo Qaresma");
+// Livro book3 = new Livro("São Bernardo", "Graciliano Ramos");
+// Livro book4 = new Livro("Capitães da Areia", "Jorge Amado", 280);
+
+// Console.WriteLine($"Título: {book1.Titulo}\nAutor: {book1.Autor}\nNúmero de páginas: {book1.NumeroPaginas}");
+// Console.WriteLine($"Título: {book2.Titulo}\nAutor: {book2.Autor}\nNúmero de páginas: {book2.NumeroPaginas}");
+// Console.WriteLine($"Título: {book3.Titulo}\nAutor: {book3.Autor}\nNúmero de páginas: {book3.NumeroPaginas}");
+// Console.WriteLine($"Título: {book4.Titulo}\nAutor: {book4.Autor}\nNúmero de páginas: {book4.NumeroPaginas}");
+
