@@ -1,5 +1,5 @@
 ﻿
-using ListaExPOO;
+using ExercicioPOOCS;
 
 // // 1. Apresentação de pessoas
 
@@ -38,10 +38,28 @@ using ListaExPOO;
 // Console.WriteLine(Calculadora.Dividir(3, 0));
 
 
-//3. Propriedades com validação
+// //3. Propriedades com validação
 
-Veiculo camaro = new Veiculo();
+// Veiculo camaro = new Veiculo();
 
-camaro.Velocidade = 400;
+// camaro.medidorVelocidade(45);
 
-print
+// Console.WriteLine(camaro.Velocidade);
+
+// camaro.medidorVelocidade(456);
+
+// Console.WriteLine(camaro.Velocidade);
+
+// camaro.medidorVelocidade(198);
+
+// Console.WriteLine(camaro.Velocidade);
+
+
+//4. Propriedades e controle de acesso
+
+Funcionario f1 = new Funcionario();
+
+f1.Nome = "Sofia";
+f1.Cargo = "Gerente";
+
+f1.AumentarSalario(0.25);

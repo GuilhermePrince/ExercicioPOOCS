@@ -5,9 +5,17 @@ namespace ListaExPOO
     {
         public int Velocidade{ private set; get; }
 
-        public void velocidade(int speed)
+        public Veiculo()
         {
-            Velocidade = speed;
+            Velocidade = 0;
+        }
+
+        public void medidorVelocidade(int velocidadeCarro)
+        {
+            if(velocidadeCarro >= 0 && velocidadeCarro <= 200)
+            {
+            Velocidade = velocidadeCarro;
+            }
         }
     }
 }
